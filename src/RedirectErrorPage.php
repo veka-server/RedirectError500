@@ -1,13 +1,13 @@
 <?php
 
-namespace VekaServer\RedirectError500;
+namespace VekaServer\RedirectErrorPage;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 
-class RedirectError500 implements MiddlewareInterface
+class RedirectErrorPage implements MiddlewareInterface
 {
 
     /**

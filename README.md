@@ -13,5 +13,5 @@ composer require veka-server/redirect-error-500
 Initialisation
 ```php
 // Creation du middleware
-$middleware = new \VekaServer\RedirectError500\RedirectError500();
+$middleware = new \VekaServer\RedirectErrorPage\RedirectErrorPage();
 ```
