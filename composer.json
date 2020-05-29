@@ -1,0 +1,20 @@
+{
+    "name": "veka-server/redirect-error-500",
+    "description": "Un middleware pour rediriger vers une page 500 custom si une exception n'est pas catché",
+    "license": "MIT",
+    "keywords": ["middleware","minimalist","PSR-15","error 500", "500", "redirect"],
+    "authors": [
+        {
+            "name": "Vanhaezebrouck Nicolas",
+            "email": "contact@veka-server.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VekaServer\\DiscordLog\\" : "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0"
+    }
+}
