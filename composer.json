@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "VekaServer\\DiscordLog\\" : "src/"
+            "VekaServer\\RedirectErrorPage\\" : "src/"
         }
     },
     "require": {
